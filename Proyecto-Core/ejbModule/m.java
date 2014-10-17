@@ -6,6 +6,9 @@ import javax.persistence.*;
  * Entity implementation class for Entity: m
  *
  */
+
+//  probando 
+
 @Entity
 
 public class m implements Serializable {
