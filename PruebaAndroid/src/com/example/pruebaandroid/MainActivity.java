@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 		
 		String returned;
 		try {
-			//Async
+			//AsyncTask
 			AsyncTask<Void, Void, String> s = new AsyncMethod().execute();
 			
 		} catch (Exception e) {
