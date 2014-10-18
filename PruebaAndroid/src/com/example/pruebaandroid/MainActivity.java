@@ -1,6 +1,5 @@
 package com.example.pruebaandroid;
 
-import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
