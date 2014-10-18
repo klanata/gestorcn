@@ -18,6 +18,7 @@ public class MainActivity extends Activity {
 		
 		String returned;
 		try {
+			
 			//AsyncTask
 			AsyncTask<Void, Void, String> s = new AsyncMethod().execute();
 			
