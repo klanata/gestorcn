@@ -1,6 +1,5 @@
 package com.example.pruebaandroid;
 
-
 import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -19,7 +18,8 @@ public class MainActivity extends Activity {
 		
 		String returned;
 		try {
-			//Async
+			
+			//AsyncTask
 			AsyncTask<Void, Void, String> s = new AsyncMethod().execute();
 			
 		} catch (Exception e) {
